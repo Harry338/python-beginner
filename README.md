@@ -15,3 +15,7 @@ Installation Guides
   
   # git commands: 
     - git clone <https link of your repository> : clones and connects your device to github 
+
+1) git add . : it adds all the files in your current folder
+2) git commit -m "___" : adds a message inside the "" to tell yourself the new things you did
+3) git push : pushes everything above to github
