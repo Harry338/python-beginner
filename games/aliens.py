@@ -9,7 +9,7 @@ print("       WELCOME TO THE GLOBAL DEFENCE NETWORK")
 print("--------------------------------------------------\n")
 
 # .upper() : converts strongs to all uppercase
-guess = input("Please enter the password: "). upper()
+guess = input("Please enter the password: ").upper()
 
 while guess != password:
     print("\nINCORRECT PASSWORD.\n")
@@ -26,7 +26,7 @@ while guess != password:
 
     # give clue if there are more than 200 aliens
     if aliens > 200 and aliens < 60000:
-        option = input("Choose a clue you want: A, B, or C")
+        option = input("Choose a clue you want: A, B, or C").upper()
         if option == "A":
             print("It begins the letter A")
         elif option == "B":
