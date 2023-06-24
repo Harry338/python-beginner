@@ -45,7 +45,7 @@ for word in english:
 alien_sentence = " ".join(alien_words)
 
 # prints out: "Translation:", (the actual alien sentence)
-print("Translation:\n", alien_sentence)
+print("Translation: \n", alien_sentence)
 
 
 
