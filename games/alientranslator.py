@@ -20,9 +20,32 @@ alien_dictionary = {
     "overlords":"bap"
     }
 
-english= input("Please enter an English word or phrase to translate: \n")
-english.lower().split()
 
+# Extra Challenge
+# Add the word: "like" with the alien word: "wefrgf" into 
+# the dictionary. 
+
+
+# Code Logic:
+
+alien_dictionary["like"] = "wefrgf"
+
+english = input("Please enter an English word or phrase to translate: \n")
+english = english.lower().split()
+
+alien_words = []
 for word in english:
-    print(word)
+    if(word in alien_dictionary):
+        alien_words.append(alien_dictionary[word])
+    else: 
+        # add english word into alien_words instead
+        alien_words.append(word)
+    
+# .join() joins every item in a list together into 1 string
+alien_sentence = " ".join(alien_words)
+
+# prints out: "Translation:", (the actual alien sentence)
+print("Translation:\n", alien_sentence)
+
+
 
