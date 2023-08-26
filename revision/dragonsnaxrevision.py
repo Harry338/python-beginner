@@ -48,7 +48,7 @@ elif player_choice == 4:
         if rob_chance <= 3:
             print("Not a chance! The cameras spotted you! You were locked up!")
         
-    elif rob == 1:
+    elif rob == 2:
         rob_chance = random.randint(1,10)
         if rob_chance <= 5:
             print("You escaped successfully sneaking past the cameras!")
