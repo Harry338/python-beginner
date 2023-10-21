@@ -86,13 +86,7 @@ def main():
     # fuction to print every 3rd number in the list
     third_num_list = find_third_num_list(num_list)
     print("The 3rd numbers of the list are", third_num_list)
-
-    # 
-
-
-
-
-
+        
 main() 
 
 
